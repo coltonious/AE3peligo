@@ -1,0 +1,2 @@
+-Mem address for if player is on warp pad is 00CE24DE
+    adderss is 01 if player is on warp pad. anything else if player is not
