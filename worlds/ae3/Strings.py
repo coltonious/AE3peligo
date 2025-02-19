@@ -1,6 +1,6 @@
 from typing import Optional, Dict, Set
 from BaseClasses import Location
-from worlds.AE3.Strings import AE3Location
+from worlds.ae3.Strings import AE3Location
 
 # idk if we need base address or not, but this is where they have it in AE1
 
