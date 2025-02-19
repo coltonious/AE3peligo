@@ -4,7 +4,7 @@ from worlds.AE3.Strings import AE3Location
 
 # idk if we need base address or not, but this is where they have it in AE1
 
-class ApeEscapeLocation(Location)
+class ApeEscapeLocation(Location):
     game: str = "Ape Escape 3"
 
 GROUPED_LOCATIONS: Dict[str, Set[str]] = {}
