@@ -195,7 +195,7 @@ location_table = {
     AE3Location.W3L3Uziko.value: 179,
     AE3Location.W3L3GP.value: 180,
     AE3Location.W3L3Walter.value: 181,
-   #AE3Location.W3L3Monkibeth.value: 182,
+   AE3Location.W3L3Monkibeth.value: 182,
     AE3Location.W3L3Babuzo.value: 183,
     AE3Location.W3L3FishyFeet.value: 184,
     AE3Location.W3L3PipoTorin.value: 185,
@@ -256,7 +256,7 @@ location_table = {
     AE3Location.W4L2PipotronRed.value: 245,
     #4-3 Artic Wonderland
     AE3Location.W4L3Kimkon.value: 246,
-    #AE3Location.W4L3Ukkina.value: 247,
+    AE3Location.W4L3Ukkina.value: 247,
     AE3Location.W4L3Bikupuri.value: 248,
     AE3Location.W4L3Ukkisu.value: 249,
     AE3Location.W4L3UkkiAmi.value: 250,
@@ -297,7 +297,199 @@ location_table = {
     AE3Location.W4L4Gimuccho.value: 284,
     AE3Location.W4L4Wojin.value: 285,
     #4-B Monkey Pink
-    AE3Location.W4LBMonkeyPink.value: 286
+    AE3Location.W4LBMonkeyPink.value: 286,
+    #5-1 Eversummer Island
+    AE3Location.W5L1UkkiMat.value: 287,
+    AE3Location.W5L1Salumani.value: 288,
+    AE3Location.W5L1Salulu.value: 289,
+    AE3Location.W5L1Baku.value: 290,
+    AE3Location.W5L1MongPopo.value: 291,
+    AE3Location.W5L1Mohcha.value: 292,
+    AE3Location.W5L1Kamcha.value: 293,
+    AE3Location.W5L1Bimocha.value: 294,
+    AE3Location.W5L1Gimchin.value: 295,
+    AE3Location.W5L1Kamaccha.value: 296,
+    AE3Location.W5L1Salunch.value: 297,
+    AE3Location.W5L1PincherMon.value: 298,
+    AE3Location.W5L1Gyamu.value: 299,
+    AE3Location.W5L1Takumon.value: 300,
+    AE3Location.W5L1UkkiEther.value: 301,
+    AE3Location.W5L1Tartan.value: 302,
+    AE3Location.W5L1Molzone.value: 303,
+    AE3Location.W5L1Chappio.value: 304,
+    AE3Location.W5L1Pomoah.value: 305,
+    AE3Location.W5L1Gucchai.value: 306,
+    AE3Location.W5L1Makaccho.value: 307,
+    AE3Location.W5L1Gamaran.value: 308,
+    AE3Location.W5L1Larry.value: 309,
+    #5-2 Airplane Squadron
+    AE3Location.W5L2Romo.value: 310,
+    AE3Location.W5L2Temko.value: 311,
+    AE3Location.W5L2Ukkigawa.value: 312,
+    AE3Location.W5L2Mokkido.value: 313,
+    AE3Location.W5L2Pont.value: 314,
+    AE3Location.W5L2Gamish.value: 315,
+    AE3Location.W5L2PrinceBertus.value: 316,
+    AE3Location.W5L2Takmon.value: 317,
+    AE3Location.W5L2ChaiBunny.value: 318,
+    AE3Location.W5L2Tamrai.value: 319,
+    AE3Location.W5L2Kemunpa.value: 320,
+    AE3Location.W5L2Mabaras.value: 321,
+    AE3Location.W5L2Tamoos.value: 322,
+    AE3Location.W5L2Kimoto.value: 323,
+    AE3Location.W5L2Jeloh.value: 324,
+    AE3Location.W5L2Bongo.value: 325,
+    AE3Location.W5L2Octavian.value: 326,
+    AE3Location.W5L2Samuel.value: 327,
+    AE3Location.W5L2Coril.value: 328,
+    AE3Location.W5L2Bont.value: 329,
+    AE3Location.W5L2DEelly.value: 330,
+    AE3Location.W5L2PipotronBlue.value: 331,
+    AE3Location.W5L2Mukita.value: 332,
+    #5-3 Kung-Fu Alley
+    AE3Location.W5L3Dally.value: 333,
+    AE3Location.W5L3NakNayo.value: 334,
+    AE3Location.W5L3DontoKoi.value: 335,
+    AE3Location.W5L3PoKinKi.value: 336,
+    AE3Location.W5L3UkkiChan.value: 337,
+    AE3Location.W5L3UkiUki.value: 338,
+    AE3Location.W5L3MukiMuki.value: 339,
+    AE3Location.W5L3Shinchi.value: 340,
+    AE3Location.W5L3DonTsuitaro.value: 341,
+    AE3Location.W5L3HiUchiIshi.value: 342,
+    AE3Location.W5L3GalaWaruo.value: 343,
+    AE3Location.W5L3BassiliUkki.value: 344,
+    AE3Location.W5L3Danchi.value: 345,
+    AE3Location.W5L3Pikon.value: 346,
+    AE3Location.W5L3Bankan.value: 347,
+    AE3Location.W5L3Sukei.value: 348,
+    AE3Location.W5L3Giyan.value: 349,
+    AE3Location.W5L3Bonmos.value: 350,
+    AE3Location.W5L3TehIsu.value: 351,
+    AE3Location.W5L3Ponja.value: 352,
+    AE3Location.W5L3Muchaki.value: 353,
+    AE3Location.W5L3YohKitana.value: 354,
+    AE3Location.W5L3GohAndos.value: 355,
+    AE3Location.W5L3Pukuman.value: 356,
+    AE3Location.W5L3BlockMaster.value: 357,
+    AE3Location.W5L3Tompo.value: 358,
+    AE3Location.W5L3Wootan.value: 359,
+    AE3Location.W5L3Chechin.value: 360,
+    AE3Location.W5L3Hapcho.value: 361,
+    AE3Location.W5L3DarkMaster.value: 362,
+    #5-B Monkey Red
+    AE3Location.W5LBMonkeyRed.value: 363,
+    #6-1 Midnight Bay
+    AE3Location.W6L1ShinyPete.value: 364,
+    AE3Location.W6L1GimiGimi.value: 365,
+    AE3Location.W6L1Nadamon.value: 366,
+    AE3Location.W6L1Patoya.value: 367,
+    AE3Location.W6L1Gumbo.value: 368,
+    AE3Location.W6L1Pehyan.value: 369,
+    AE3Location.W6L1Mokito.value: 370,
+    AE3Location.W6L1PipoKate.value: 371,
+    AE3Location.W6L1Samtan.value: 372,
+    AE3Location.W6L1Pokkine.value: 373,
+    AE3Location.W6L1Daban.value: 374,
+    AE3Location.W6L1Keiichi.value: 375,
+    AE3Location.W6L1Landon.value: 376,
+    AE3Location.W6L1McBreezy.value: 377,
+    AE3Location.W6L1Ronson.value: 378,
+    AE3Location.W6L1Gimo.value: 379,
+    AE3Location.W6L1Hiroshi.value: 380,
+    AE3Location.W6L1Nakabi.value: 381,
+    AE3Location.W6L1Mibon.value: 382,
+    AE3Location.W6L1Bololon.value: 383,
+    AE3Location.W6L1Doemos.value: 384,
+    AE3Location.W6L1Kazuo.value: 385,
+    AE3Location.W6L1Pokkini.value: 386,
+    AE3Location.W6L1Jimo.value: 387,
+    AE3Location.W6L1Bokino.value: 388,
+    AE3Location.W6L1Makidon.value: 389,
+    AE3Location.W6L1Dogy.value: 390,
+    AE3Location.W6L1Gibdon.value: 391,
+    AE3Location.W6L1Buligie.value: 392,
+    #6-2 Tomoki City
+    AE3Location.W6L2Tomimon.value: 393,
+    AE3Location.W6L2Kichibeh.value: 394,
+    AE3Location.W6L2Bonchicchi.value: 395,
+    AE3Location.W6L2Mikibon.value: 396,
+    AE3Location.W6L2DJTamo.value: 397,
+    AE3Location.W6L2Ukkinaka.value: 398,
+    AE3Location.W6L2Ukkine.value: 399,
+    AE3Location.W6L2PonJiro.value: 400,
+    AE3Location.W6L2Chimpy.value: 401,
+    AE3Location.W6L2Kajitan.value: 402,
+    AE3Location.W6L2UkaUka.value: 403,
+    AE3Location.W6L2MilMil.value: 404,
+    AE3Location.W6L2Taimon.value: 405,
+    AE3Location.W6L2GoroSan.value: 406,
+    AE3Location.W6L2Reiji.value: 407,
+    AE3Location.W6L2Ponta.value: 408,
+    AE3Location.W6L2Tomio.value: 409,
+    AE3Location.W6L2Gario.value: 410,
+    AE3Location.W6L2DJPari.value: 411,
+    AE3Location.W6L2Mitsuo.value: 412,
+    AE3Location.W6L2Riley.value: 413,
+    AE3Location.W6L2PipoRon.value: 414,
+    AE3Location.W6L2Mikita.value: 415,
+    AE3Location.W6L2Sal13.value: 416,
+    AE3Location.W6L2Sal12.valuie: 417,
+    AE3Location.W6L2Tomu.value: 418,
+    AE3Location.W6L2Breadacus.value: 419,
+    AE3Location.W6L2Ukkigoro.value: 420,
+    AE3Location.W6L2Ukiji.value: 421,
+    #6-B Tomoki
+    AE3Location.W6LBTomoki.value: 422,
+    #7-1 Space-TV Fortress
+    AE3Location.W7L1Poko.value: 423,
+    AE3Location.W7L1Gamuo.value: 424,
+    AE3Location.W7L1MotoUkki.value: 425,
+    AE3Location.W7L1JimiJami.value: 426,
+    AE3Location.W7L1Genbo.value: 426,
+    AE3Location.W7L1TwinMitty.value: 427,
+    AE3Location.W7L1Uttey.value: 428,
+    AE3Location.W7L1Emma.value: 429,
+    AE3Location.W7L1Dokicchi.value: 430,
+    AE3Location.W7L1Kamicchi.value: 431,
+    AE3Location.W7L1UkkiMonda.value: 432,
+    AE3Location.W7L1Porokko.value: 433,
+    AE3Location.W7L1Zonelin.value: 434,
+    AE3Location.W7L1Zonelin.value: 435,
+    AE3Location.W7L1Tamano.value: 436,
+    AE3Location.W7L1Nelson.value: 437,
+    AE3Location.W7L1Koloneh.value: 438,
+    AE3Location.W7L1Miluchy.value: 438,
+    AE3Location.W7L1Robert.value: 439,
+    AE3Location.W7L1Fronson.value: 440,
+    AE3Location.W7L1Demekin.value: 441,
+    AE3Location.W7L1Kikuyoshi.value: 442,
+    AE3Location.W7L1Freet.value: 443,
+    AE3Location.W7L1Chico.value: 444,
+    AE3Location.W7L1Gamurin.value: 445,
+    AE3Location.W7L1PipoMon.value: 446,
+    AE3Location.W7L1GamGam.value: 447,
+    AE3Location.W7L1Doronbo.value: 448,
+    AE3Location.W7L1Benja.value: 449,
+    AE3Location.W7L1Macchan.value: 450,
+    AE3Location.W7L1Rokkun.value: 451,
+    AE3Location.W7L1UkkiLove.value: 452,
+    AE3Location.W7L1Momongo.value: 453,
+    AE3Location.W7L1Moepi.value: 454,
+    AE3Location.W7L1Pumon.value: 455,
+    AE3Location.W7L1Makiban.value: 456,
+    AE3Location.W7L1Mukikko.value: 457,
+    AE3Location.W7L1Sal10.value: 458,
+    AE3Location.W7L1sal11.value: 459,
+    AE3Location.W7L1Upis.value: 460,
+    AE3Location.W7L1Mondatta.value: 461,
+    AE3Location.W7L1Gicchom.value: 462,
+    AE3Location.W7L1Barire.value: 463,
+    AE3Location.W7L1Sal3000.value: 464,
+    #7-B1 Specter 1
+    AE3Location.W7LB1Specter.value: 465,
+    #7-B2 Specter 2
+    AE3Location.W7LB2Specter.value: 466
 
 
     
@@ -314,5 +506,39 @@ def createLocationGroups():
             GROUPED_LOCATIONS.setdefault("Hide-n-Seek Forest", []).append(locname)
         elif "1-3" in locname:
             GROUPED_LOCATIONS.setdefault("Sarumon's Castle", []).append(locname)
-        elif "1-b" in locname:
+        elif "-b" in locname:
             GROUPED_LOCATIONS.setdefault("bosses", []).append(locname)
+        elif "2-1" in locname:
+            GROUPED_LOCATIONS.setdefault("The Big City", []).append(locname)
+        elif "2-2" in locname:
+            GROUPED_LOCATIONS.setdefault("Specter TV Studio", []).append(locname)
+        elif "2-3" in locname:
+            GROUPED_LOCATIONS.setdefault("Bootown", []).append(locname)
+        elif "2-4" in locname:
+            GROUPED_LOCATIONS.setdefault("Wild West Town", []).append(locname)
+        elif "3-1" in locname:
+            GROUPED_LOCATIONS.setdefault("The Hot Springs", []).append(locname)
+        elif "3-2" in locname:
+            GROUPED_LOCATIONS.setdefault("Winterville", []).append(locname)
+        elif "3-3" in locname:
+            GROUPED_LOCATIONS.setdefault("The Emperor's Castle", []).append(locname)
+        elif "4-1" in locname:
+            GROUPED_LOCATIONS.setdefault("Mount Amazing", []).append(locname)
+        elif "4-2" in locname:
+            GROUPED_LOCATIONS.setdefault("Toytown", []).append(locname)
+        elif "4-3" in locname:
+            GROUPED_LOCATIONS.setdefault("Arctic Wonderland", []).append(locname)
+        elif "4-4" in locname:
+            GROUPED_LOCATIONS.setdefault("Mirage Town", []).append(locname)
+        elif "5-1" in locname:
+            GROUPED_LOCATIONS.setdefault("Eversummer Island", []).append(locname)
+        elif "5-2" in locname:
+            GROUPED_LOCATIONS.setdefault("Airplane Squadron", []).append(locname)
+        elif "5-3" in locname:
+            GROUPED_LOCATIONS.setdefault("Kung-Fu Alley", []).append(locname)
+        elif "6-1" in locname:
+            GROUPED_LOCATIONS.setdefault("Midnight Bay", []).append(locname)
+        elif "6-2" in locname:
+            GROUPED_LOCATIONS.setdefault("Tomoki City", []).append(locname)
+        elif "7-1" in locname:
+            GROUPED_LOCATIONS.setdefault("Space TV Station", []).append(locname)
