@@ -10,9 +10,9 @@ class ApeEscapeLocation(Location):
 GROUPED_LOCATIONS: Dict[str, Set[str]] = {}
 
 location_table = {
-    #0-0 TV Station
-    AE3Location.W0L0UkkiPan.value: 1,
-    #1-1 Seaside Resort
+    #CH0 TV Station
+    AE3Location.CH0UkkiPan.value: 1,
+    #CH1 Seaside Resort
     AE3Location.W1L1UkkiPia.value: 2,
     AE3Location.W1L1Sarubo.value: 3,
     AE3Location.W1L1Salurin.value: 4,
@@ -24,7 +24,7 @@ location_table = {
     AE3Location.W1L1Tomezo.value: 10,
     AE3Location.W1L1Kamayan.value: 11,
     AE3Location.W1L1Taizo.value: 12,
-    #1-2 Hide-n-Seek Forest
+    #CH2 Hide-n-Seek Forest
     AE3Location.W1L2UkkiPon.value: 13,
     AE3Location.W1L2Ukkian.value: 14,
     AE3Location.W1L2UkkiRed.value: 15,
@@ -40,7 +40,7 @@ location_table = {
     AE3Location.W1L2Marukichi.value: 25,
     AE3Location.W1L2Kikimon.value: 26,
     AE3Location.W1L2Kominato.value: 27,
-    #1-3 Saru-Mon's Castle
+    #CH3 Saru-Mon's Castle
     AE3Location.W1L3Ukkido.value: 28,
     AE3Location.W1L3PipoGuard.value: 29,
     AE3Location.W1L3Monderella.value: 30,
@@ -57,9 +57,9 @@ location_table = {
     AE3Location.W1L3Mattsun.value: 41,
     AE3Location.W1L3Miya.value: 42,
     AE3Location.W1L3MonSan.value: 43,
-    #1-Boss
+    #BS1
     AE3Location.W1LBMonkeyWhite.value: 44,
-    #2-1 The Big City
+    #CH4 The Big City
     AE3Location.W2L1Ukima.value: 54,
     AE3Location.W2L1Monbolo.value: 55,
     AE3Location.W2L1PipoMondy.value: 56,
@@ -78,7 +78,7 @@ location_table = {
     AE3Location.W2L1MonkeyManager.value: 69,
     AE3Location.W2L1SupervisorChimp.value: 70,
     AE3Location.W2L1BossApe.value: 71,
-    #2-2 Specter TV Studio
+    #CH5 Specter TV Studio
     AE3Location.W2L2UkkiYan.value: 72,
     AE3Location.W2L2Ukkipuss.value: 73,
     AE3Location.W2L2Monta.value: 74,
@@ -98,7 +98,7 @@ location_table = {
     AE3Location.W2L2SallyMon.value: 88,
     AE3Location.W2L2Bonly.value: 89,
     AE3Location.W2L2Monly.value: 90,
-    #2-3 Bootown
+    #CH6 Bootown
     AE3Location.W2L3Monkichiro.value: 91,
     AE3Location.W2L3Leomon.value: 92,
     AE3Location.W2L3Uikkun.value: 93,
@@ -138,9 +138,9 @@ location_table = {
     AE3Location.W2L4Pamela.value: 126,
     AE3Location.W2L4UkkiMonber.value: 127,
     AE3Location.W2L4Gaukichi.value: 128,
-    #2-B Monkey Blue
+    #BS2 Monkey Blue
     AE3Location.W2LBMonkeyBlue.value: 129,
-    #3-1 The Hot Springs
+    #CH8 The Hot Springs
     AE3Location.W3L1Chabimon.value: 130,
     AE3Location.W3L1SaruSam.value: 131,
     AE3Location.W3L1Kiichiro.value: 132,
@@ -161,7 +161,7 @@ location_table = {
     AE3Location.W3L1Minokichi.value: 147,
     AE3Location.W3L1Donkichi.value: 148,
     AE3Location.W3L1GenSan.value: 149,
-    #3-2 Wintervile
+    #CH9 Wintervile
     AE3Location.W3L2Kimisuke.value: 150,
     AE3Location.W3L2Konzo.value: 151,
     AE3Location.W3L2Saburota.value: 152,
@@ -183,7 +183,7 @@ location_table = {
     AE3Location.W3L2Tomokun.value: 168,
     AE3Location.W3L2AkkiBon.value: 169,
     AE3Location.W3L2PipotronYellow.value: 170,
-    #3-3 The Emperor's Castle
+    #CH10 The Emperor's Castle
     AE3Location.W3L3PipoTobi.value: 171,
     AE3Location.W3L3Masan.value: 172,
     AE3Location.W3L3Mohachi.value: 173,
@@ -205,9 +205,9 @@ location_table = {
     AE3Location.W3L3Masachi.value: 189,
     AE3Location.W3L3Golota.value: 190,
     AE3Location.W3L3Kinsuke.value: 191,
-    #3-B Monkey Yellow
+    #BS3 Monkey Yellow
     AE3Location.W3LBMonkeyYellow.value: 192,
-    #4-1 Mount Amazing
+    #CH11 Mount Amazing
     AE3Location.W4L1Ukkichi.value: 193,
     AE3Location.W4L1Chomon.value: 194,
     AE3Location.W4l1Ukkido.value: 195,
@@ -229,7 +229,7 @@ location_table = {
     AE3Location.W4L1Kansuke.value: 211,
     AE3Location.W4L1Pohta.value: 212,
     AE3Location.W4L1Keisuke.value: 213,
-    #4-2 Toytown
+    #CH12 Toytown
     AE3Location.W4L2Pikkori.value: 214,
     AE3Location.W4L2TalUkki.value: 215,
     AE3Location.W4L2Pinkino.value: 216,
@@ -254,7 +254,7 @@ location_table = {
     AE3Location.W4L2Shouji.value: 243,
     AE3Location.W4L2WooMakka.value: 244,
     AE3Location.W4L2PipotronRed.value: 245,
-    #4-3 Artic Wonderland
+    #CH13 Artic Wonderland
     AE3Location.W4L3Kimkon.value: 246,
     AE3Location.W4L3Ukkina.value: 247,
     AE3Location.W4L3Bikupuri.value: 248,
@@ -273,7 +273,7 @@ location_table = {
     AE3Location.W4L3Kyam.value: 261,
     AE3Location.W4L3Kappinno.value: 262,
     AE3Location.W4L3KrisKrimon.value: 263,
-    #4-4 Mirage Town
+    #CH14 Mirage Town
     AE3Location.W4L4ScorpiMon.value: 264,
     AE3Location.W4L4Minimon.value: 265,
     AE3Location.W4L4Moontero.value: 266,
@@ -296,9 +296,9 @@ location_table = {
     AE3Location.W4L4Kisha.value: 283,
     AE3Location.W4L4Gimuccho.value: 284,
     AE3Location.W4L4Wojin.value: 285,
-    #4-B Monkey Pink
+    #BS4 Monkey Pink
     AE3Location.W4LBMonkeyPink.value: 286,
-    #5-1 Eversummer Island
+    #CH15 Eversummer Island
     AE3Location.W5L1UkkiMat.value: 287,
     AE3Location.W5L1Salumani.value: 288,
     AE3Location.W5L1Salulu.value: 289,
@@ -322,7 +322,7 @@ location_table = {
     AE3Location.W5L1Makaccho.value: 307,
     AE3Location.W5L1Gamaran.value: 308,
     AE3Location.W5L1Larry.value: 309,
-    #5-2 Airplane Squadron
+    #CH16 Airplane Squadron
     AE3Location.W5L2Romo.value: 310,
     AE3Location.W5L2Temko.value: 311,
     AE3Location.W5L2Ukkigawa.value: 312,
@@ -346,7 +346,7 @@ location_table = {
     AE3Location.W5L2DEelly.value: 330,
     AE3Location.W5L2PipotronBlue.value: 331,
     AE3Location.W5L2Mukita.value: 332,
-    #5-3 Kung-Fu Alley
+    #CH17 Kung-Fu Alley
     AE3Location.W5L3Dally.value: 333,
     AE3Location.W5L3NakNayo.value: 334,
     AE3Location.W5L3DontoKoi.value: 335,
@@ -377,9 +377,9 @@ location_table = {
     AE3Location.W5L3Chechin.value: 360,
     AE3Location.W5L3Hapcho.value: 361,
     AE3Location.W5L3DarkMaster.value: 362,
-    #5-B Monkey Red
+    #BS5 Monkey Red
     AE3Location.W5LBMonkeyRed.value: 363,
-    #6-1 Midnight Bay
+    #CH18 Midnight Bay
     AE3Location.W6L1ShinyPete.value: 364,
     AE3Location.W6L1GimiGimi.value: 365,
     AE3Location.W6L1Nadamon.value: 366,
@@ -409,7 +409,7 @@ location_table = {
     AE3Location.W6L1Dogy.value: 390,
     AE3Location.W6L1Gibdon.value: 391,
     AE3Location.W6L1Buligie.value: 392,
-    #6-2 Tomoki City
+    #CH18 Tomoki City
     AE3Location.W6L2Tomimon.value: 393,
     AE3Location.W6L2Kichibeh.value: 394,
     AE3Location.W6L2Bonchicchi.value: 395,
@@ -439,57 +439,55 @@ location_table = {
     AE3Location.W6L2Breadacus.value: 419,
     AE3Location.W6L2Ukkigoro.value: 420,
     AE3Location.W6L2Ukiji.value: 421,
-    #6-B Tomoki
+    #BS6 Tomoki
     AE3Location.W6LBTomoki.value: 422,
-    #7-1 Space-TV Fortress
-    AE3Location.W7L1Poko.value: 423,
-    AE3Location.W7L1Gamuo.value: 424,
-    AE3Location.W7L1MotoUkki.value: 425,
-    AE3Location.W7L1JimiJami.value: 426,
-    AE3Location.W7L1Genbo.value: 426,
-    AE3Location.W7L1TwinMitty.value: 427,
-    AE3Location.W7L1Uttey.value: 428,
-    AE3Location.W7L1Emma.value: 429,
-    AE3Location.W7L1Dokicchi.value: 430,
-    AE3Location.W7L1Kamicchi.value: 431,
-    AE3Location.W7L1UkkiMonda.value: 432,
-    AE3Location.W7L1Porokko.value: 433,
-    AE3Location.W7L1Zonelin.value: 434,
-    AE3Location.W7L1Zonelin.value: 435,
-    AE3Location.W7L1Tamano.value: 436,
-    AE3Location.W7L1Nelson.value: 437,
-    AE3Location.W7L1Koloneh.value: 438,
-    AE3Location.W7L1Miluchy.value: 438,
-    AE3Location.W7L1Robert.value: 439,
-    AE3Location.W7L1Fronson.value: 440,
-    AE3Location.W7L1Demekin.value: 441,
-    AE3Location.W7L1Kikuyoshi.value: 442,
-    AE3Location.W7L1Freet.value: 443,
-    AE3Location.W7L1Chico.value: 444,
-    AE3Location.W7L1Gamurin.value: 445,
-    AE3Location.W7L1PipoMon.value: 446,
-    AE3Location.W7L1GamGam.value: 447,
-    AE3Location.W7L1Doronbo.value: 448,
-    AE3Location.W7L1Benja.value: 449,
-    AE3Location.W7L1Macchan.value: 450,
-    AE3Location.W7L1Rokkun.value: 451,
-    AE3Location.W7L1UkkiLove.value: 452,
-    AE3Location.W7L1Momongo.value: 453,
-    AE3Location.W7L1Moepi.value: 454,
-    AE3Location.W7L1Pumon.value: 455,
-    AE3Location.W7L1Makiban.value: 456,
-    AE3Location.W7L1Mukikko.value: 457,
-    AE3Location.W7L1Sal10.value: 458,
-    AE3Location.W7L1sal11.value: 459,
-    AE3Location.W7L1Upis.value: 460,
-    AE3Location.W7L1Mondatta.value: 461,
-    AE3Location.W7L1Gicchom.value: 462,
-    AE3Location.W7L1Barire.value: 463,
-    AE3Location.W7L1Sal3000.value: 464,
-    #7-B1 Specter 1
-    AE3Location.W7LB1Specter.value: 465,
-    #7-B2 Specter 2
-    AE3Location.W7LB2Specter.value: 466
+    #CH20 Space-TV Fortress
+    AE3Location.CH20Poko.value: 423,
+    AE3Location.CH20Gamuo.value: 424,
+    AE3Location.CH20MotoUkki.value: 425,
+    AE3Location.CH20JimiJami.value: 426,
+    AE3Location.CH20Genbo.value: 426,
+    AE3Location.CH20TwinMitty.value: 427,
+    AE3Location.CH20Uttey.value: 428,
+    AE3Location.CH20Emma.value: 429,
+    AE3Location.CH20Dokicchi.value: 430,
+    AE3Location.CH20Kamicchi.value: 431,
+    AE3Location.CH20UkkiMonda.value: 432,
+    AE3Location.CH20Porokko.value: 433,
+    AE3Location.CH20Zonelin.value: 434,
+    AE3Location.CH20Zonelin.value: 435,
+    AE3Location.CH20Tamano.value: 436,
+    AE3Location.CH20Nelson.value: 437,
+    AE3Location.CH20Koloneh.value: 438,
+    AE3Location.CH20Miluchy.value: 438,
+    AE3Location.CH20Robert.value: 439,
+    AE3Location.CH20Fronson.value: 440,
+    AE3Location.CH20Demekin.value: 441,
+    AE3Location.CH20Kikuyoshi.value: 442,
+    AE3Location.CH20Freet.value: 443,
+    AE3Location.CH20Chico.value: 444,
+    AE3Location.CH20Gamurin.value: 445,
+    AE3Location.CH20PipoMon.value: 446,
+    AE3Location.CH20GamGam.value: 447,
+    AE3Location.CH20Doronbo.value: 448,
+    AE3Location.CH20Benja.value: 449,
+    AE3Location.CH20Macchan.value: 450,
+    AE3Location.CH20Rokkun.value: 451,
+    AE3Location.CH20UkkiLove.value: 452,
+    AE3Location.CH20Momongo.value: 453,
+    AE3Location.CH20Moepi.value: 454,
+    AE3Location.CH20Pumon.value: 455,
+    AE3Location.CH20Makiban.value: 456,
+    AE3Location.CH20Mukikko.value: 457,
+    AE3Location.CH20Sal10.value: 458,
+    AE3Location.CH20sal11.value: 459,
+    AE3Location.CH20Upis.value: 460,
+    AE3Location.CH20Mondatta.value: 461,
+    AE3Location.CH20Gicchom.value: 462,
+    AE3Location.CH20Barire.value: 463,
+    AE3Location.CH20Sal3000.value: 464,
+    #BS8 Specter 2
+    AE3Location.W7LB2Specter.value: 465
 
 
     
@@ -500,45 +498,45 @@ def createLocationGroups():
     for x in range (0, len(location_table) - 1):
         locname = list(location_table.keys())[x]
         #add to location group for each level
-        if "1-1" in locname:
+        if "CH1" in locname:
             GROUPED_LOCATIONS.setdefault("Seaside Resort", []).append(locname)
-        elif "1-2" in locname:
+        elif "CH2" in locname:
             GROUPED_LOCATIONS.setdefault("Hide-n-Seek Forest", []).append(locname)
-        elif "1-3" in locname:
+        elif "CH3" in locname:
             GROUPED_LOCATIONS.setdefault("Sarumon's Castle", []).append(locname)
         elif "-b" in locname:
             GROUPED_LOCATIONS.setdefault("bosses", []).append(locname)
-        elif "2-1" in locname:
+        elif "CH4" in locname:
             GROUPED_LOCATIONS.setdefault("The Big City", []).append(locname)
-        elif "2-2" in locname:
+        elif "CH5" in locname:
             GROUPED_LOCATIONS.setdefault("Specter TV Studio", []).append(locname)
-        elif "2-3" in locname:
+        elif "CH6" in locname:
             GROUPED_LOCATIONS.setdefault("Bootown", []).append(locname)
-        elif "2-4" in locname:
+        elif "CH7" in locname:
             GROUPED_LOCATIONS.setdefault("Wild West Town", []).append(locname)
-        elif "3-1" in locname:
+        elif "CH8" in locname:
             GROUPED_LOCATIONS.setdefault("The Hot Springs", []).append(locname)
-        elif "3-2" in locname:
+        elif "CH9" in locname:
             GROUPED_LOCATIONS.setdefault("Winterville", []).append(locname)
-        elif "3-3" in locname:
+        elif "CH10" in locname:
             GROUPED_LOCATIONS.setdefault("The Emperor's Castle", []).append(locname)
-        elif "4-1" in locname:
+        elif "CH11" in locname:
             GROUPED_LOCATIONS.setdefault("Mount Amazing", []).append(locname)
-        elif "4-2" in locname:
+        elif "CH12" in locname:
             GROUPED_LOCATIONS.setdefault("Toytown", []).append(locname)
-        elif "4-3" in locname:
+        elif "CH13" in locname:
             GROUPED_LOCATIONS.setdefault("Arctic Wonderland", []).append(locname)
-        elif "4-4" in locname:
+        elif "CH14" in locname:
             GROUPED_LOCATIONS.setdefault("Mirage Town", []).append(locname)
-        elif "5-1" in locname:
+        elif "CH15" in locname:
             GROUPED_LOCATIONS.setdefault("Eversummer Island", []).append(locname)
-        elif "5-2" in locname:
+        elif "CH16" in locname:
             GROUPED_LOCATIONS.setdefault("Airplane Squadron", []).append(locname)
-        elif "5-3" in locname:
+        elif "CH17" in locname:
             GROUPED_LOCATIONS.setdefault("Kung-Fu Alley", []).append(locname)
-        elif "6-1" in locname:
+        elif "CH18" in locname:
             GROUPED_LOCATIONS.setdefault("Midnight Bay", []).append(locname)
-        elif "6-2" in locname:
+        elif "CH19" in locname:
             GROUPED_LOCATIONS.setdefault("Tomoki City", []).append(locname)
-        elif "7-1" in locname:
+        elif "CH20" in locname:
             GROUPED_LOCATIONS.setdefault("Space TV Station", []).append(locname)
